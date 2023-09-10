@@ -1,11 +1,11 @@
 let pizzaPlace, numberOfToppings;
 
 pizzaPlace = "Kdubs Always Extra Cheese";
-numberOfToppings = 1; // Just extra cheese!
+numberOfToppings = 10; // Just extra cheese!
 console.log(`${pizzaPlace}:`, typeof pizzaPlace, `${numberOfToppings}:`, typeof numberOfToppings);
 console.log(`${pizzaPlace} is my favorite place to get pizza, they always include ${numberOfToppings} extra cheese topping free of charge!`);
 
-if(numberOfToppings < 10){
+if(numberOfToppings < 1){
   console.log(`Quality, not quantity`);
 }
 else {
@@ -30,3 +30,5 @@ while (i<=numberOfToppings){
   (i % 2 === 0) ? console.log(i):console.log(`Not an even number`);
   i++;
 }
+
+
