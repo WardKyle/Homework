@@ -1,0 +1,99 @@
+:root {
+  --mainBlueColor: 84, 198, 235;
+  --mainMaroonColor: 97, 3, 69;
+  --lightGray: #e6e3e3;
+  --textFont: Merriweather, sans-serif;
+  --headerFont: Anton, sans-serif;
+  --fullWidth: 100vw;
+  --fullHeight: 100vh;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: var(--fullWidth);
+  overflow-x: hidden;
+}
+main {
+  padding-top: 10vh;
+  font-family: var(--textFont);
+  width: var(--fullWidth);
+}
+.intro, .middleSection, .testimonials {
+  width: var(--fullWidth);
+  height: 500px;
+  padding-left:10%;
+  padding-right: 10%;
+  display: flex;
+}
+.intro, .testimonials {
+  background-color: rgba(var(--mainBlueColor),0.3);
+}
+.middleSection {
+  background-color: rgba(0,0,0,0.05);
+}
+.introSpan {
+  vertical-align: middle;
+  line-height:500px;
+  flex: 1 1 auto;
+}
+header {
+  height: 20vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: var(--fullWidth);
+}
+nav {
+  color:white;
+  background-color: rgb(var(--mainMaroonColor));
+  width: 100%;
+  height: 10vh;
+  padding-left: 75px;
+  vertical-align: middle;
+  line-height: 10vh;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: var(--headerFont);
+  z-index: 2;
+}
+#fixedImage {
+  height: 80px;
+  background-image: url(PassLockr.png);
+  background-position: 75px 50%;
+  background-repeat: no-repeat;
+  background-size: auto 60px;
+}
+.col1,.col2 {
+  height:100%;
+}
+.col1 {
+  flex:1;
+  border-right: 1px solid black;
+  padding: 5px;
+}
+.col2 {
+  flex:2;
+  background-g
+}
+.middleSpan1, .middleSpan2 {
+  height: 50%;
+  padding-top: 25px;
+}
+.middleSpan1 {
+  border-bottom: 1px solid black;
+}
+.col2 {
+  padding-left: 20%;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 100px;
+}
+.col2 ol {
+  padding-top: 50px;
+}
+.col2 ol li {
+  padding-top: 25px;
+}
