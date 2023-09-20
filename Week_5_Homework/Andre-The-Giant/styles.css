@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+}
+
+div {
+  border: 2px solid burlywood;
+  /* margin: 10px; */
+}
+
+#introPic {
+  float: left;
+}
+
+#bio {
+  float: right;
+  width: 100%;;
+  display: block;
+  padding-left:0;
+}
+#bio > li {
+  padding: 2px;
+  list-style-type: none;
+}
+#top {
+  width:100%;
+  height:auto;
+  display: inline-block;
+}
+
+#pro {
+  width: auto;
+}
+@media (max-width:420px){
+  #earlyCareer img {
+    width:100%;
+  }
+  div {
+    overflow-wrap:break-word;
+  }
+}
